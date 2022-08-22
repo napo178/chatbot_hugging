@@ -22,3 +22,12 @@ tokenizer = GPT2Tokenizer.from_pretrained("gpt2")
 tokenizer("Hello world")['input_ids']
 tokenizer(" Hello world")['input_ids']
 
+#Deployment
+
+1. Clone the repo (git clone)
+
+2. Sign in streamlit.com
+
+3. Click on deploy app and select  the Python file(py)
+
+![image](https://user-images.githubusercontent.com/87319901/185990728-b9f01ba4-f625-448e-b4df-60719980aaaf.png)
