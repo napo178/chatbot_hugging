@@ -11,6 +11,10 @@ def load_data():
 tokenizer, model = load_data()
 
 st.title("Chat with a Machine")
+
+st.write("This is a demo of a chatbot that uses a pretrained model from the huggingface library.")
+
+
 st.write("Write a text message as if writing a text message to a human. The machine will attempt to respond with an appropriate text message.")
 input = st.text_input('Your text message:')
 
