@@ -12,6 +12,13 @@ tokenizer, model = load_data()
 
 st.title("Chat with a Machine")
 
+from PIL import Image
+image = Image.open('Bot.jpg')
+
+st.image(image, caption='Bot')
+
+
+
 st.write("This is a demo of a chatbot that uses a pretrained model from the huggingface library.")
 
 
