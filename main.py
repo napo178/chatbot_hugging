@@ -5,6 +5,7 @@ import transformers
 from transformers import AutoModelForCausalLM, AutoTokenizer
 
 st.title("Chatbot using Hugging Face Transformers")
+st.title('Done by Napoleon Perez')
 
 from PIL import Image
 image = Image.open('bot.jpg')
