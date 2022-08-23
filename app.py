@@ -9,7 +9,7 @@ st.set_page_config(
 )
 
 API_URL = "https://api-inference.huggingface.co/models/facebook/blenderbot-400M-distill"
-headers = {"Authorization": st.secrets['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']}
+headers = {"Authorization": st.secrets['api_key']}
 
 st.header("Chatbot")
 
