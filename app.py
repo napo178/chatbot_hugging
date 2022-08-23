@@ -1,6 +1,8 @@
 
 import streamlit as st
 from streamlit_chat import message
+import requests
+
 st.set_page_config(
     page_title="Streamlit Chat - Demo",
     page_icon=":robot:"
@@ -9,8 +11,7 @@ st.set_page_config(
 API_URL = "https://api-inference.huggingface.co/models/facebook/blenderbot-400M-distill"
 headers = {"Authorization": st.secrets['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']}
 
-st.header("Streamlit Chat - Demo")
-st.markdown("[Github](https://github.com/ai-yash/st-chat)")
+st.header("Chatbot")
 
 if 'generated' not in st.session_state:
     st.session_state['generated'] = []
